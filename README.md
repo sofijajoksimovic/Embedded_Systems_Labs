@@ -56,7 +56,7 @@ The project demonstrates the use of:
 
 ### How to Run
 1. Open `.ioc` file in STM32CubeMX for configuration reference.  
-2. Open `.pdspjr` file in Proteus to simulate the system.  
+2. Open `.pdsprj` file in Proteus to simulate the system.  
 3. Build project in preferred IDE (Eclipse/STM32CubeIDE).  
 4. Observe LCD display, virtual terminal, and fan behavior.
 
