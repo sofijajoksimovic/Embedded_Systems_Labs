@@ -2,7 +2,7 @@
 **Author:** Sofija Joksimović
 
 ## Overview
-This repository contains summaty of practical lab exercises from the course **Microprocessor Systems** (Mikroprocesorski sistemi).  
+This repository contains summary of practical lab exercises from the course **Microprocessor Systems** (Mikroprocesorski sistemi).  
 The labs demonstrate proficiency in embedded programming, microcontroller peripherals, and simulation using STM32CubeMX, Eclipse, and Proteus.
 
 ## Technologies Used
@@ -23,11 +23,6 @@ Labs demonstrate advanced embedded programming techniques:
 This lab implements a system that reads temperature, wind speed, wind direction, and rainfall intensity, and controls a fan accordingly using **STM32F103R6**.  
 The project demonstrates the use of:
 
-- ADC via multiplexer
-- PWM fan control
-- Custom LCD display characters
-- USART virtual terminal
-- FreeRTOS tasks and/or EXTI interrupts
 
 ### Peripherals & Components
 - **Motor** – controlled via PWM (fan speed).  
@@ -61,7 +56,7 @@ The project demonstrates the use of:
 
 ### How to Run
 1. Open `.ioc` file in STM32CubeMX for configuration reference.  
-2. Open `.DSN` file in Proteus to simulate the system.  
+2. Open `.pdspjr` file in Proteus to simulate the system.  
 3. Build project in preferred IDE (Eclipse/STM32CubeIDE).  
 4. Observe LCD display, virtual terminal, and fan behavior.
 
